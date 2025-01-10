@@ -201,7 +201,7 @@ var requirejs, _require, define;!function (global, setTimeout) {
 		    q,
 		    E,
 		    w,
-		    y = { waitSeconds: 7, baseUrl: "./", paths: {}, bundles: {}, pkgs: {}, shim: {}, config: {} },
+		    y = { waitSeconds: 7, baseUrl: "https://cdn.jsdelivr.net/gh/Peinguy/threegoblets@master/", paths: {}, bundles: {}, pkgs: {}, shim: {}, config: {} },
 		    S = {},
 		    k = {},
 		    M = {},
