@@ -57,14 +57,14 @@ define(['lib/pixi'], function (PIXI) {
         var _this2 = this;
 
         var loader = PIXI.loader;
-        loader.add('fontData', 'https://cdn.jsdelivr.net/gh/Peinguy/goblets/assets/MunroFont.fnt');
-        loader.add('atlas', 'https://cdn.jsdelivr.net/gh/Peinguy/goblets/assets/SpriteAtlas.json');
-        loader.add('attackAnim', 'https://cdn.jsdelivr.net/gh/Peinguy/goblets/assets/animations/attackAnim.json');
-        loader.add('sweepAnim', 'https://cdn.jsdelivr.net/gh/Peinguy/goblets/assets/animations/sweepAnim.json');
-        loader.add('criticalAnim', 'https://cdn.jsdelivr.net/gh/Peinguy/goblets/assets/animations/criticalAnim.json');
-        loader.add('fireballAnim', 'https://cdn.jsdelivr.net/gh/Peinguy/goblets/assets/animations/fireballAnim.json');
-        loader.add('splashAnim', 'https://cdn.jsdelivr.net/gh/Peinguy/goblets/assets/animations/splashAnim.json');
-        loader.add('crossAnim', 'https://cdn.jsdelivr.net/gh/Peinguy/goblets/assets/animations/crossAnim.json');
+        loader.add('fontData', 'https://cdn.jsdelivr.net/gh/Peinguy/threegoblets/assets/MunroFont.fnt');
+        loader.add('atlas', 'https://cdn.jsdelivr.net/gh/Peinguy/threegoblets/assets/SpriteAtlas.json');
+        loader.add('attackAnim', 'https://cdn.jsdelivr.net/gh/Peinguy/threegoblets/assets/animations/attackAnim.json');
+        loader.add('sweepAnim', 'https://cdn.jsdelivr.net/gh/Peinguy/threegoblets/assets/animations/sweepAnim.json');
+        loader.add('criticalAnim', 'https://cdn.jsdelivr.net/gh/Peinguy/threegoblets/assets/animations/criticalAnim.json');
+        loader.add('fireballAnim', 'https://cdn.jsdelivr.net/gh/Peinguy/threegoblets/assets/animations/fireballAnim.json');
+        loader.add('splashAnim', 'https://cdn.jsdelivr.net/gh/Peinguy/threegoblets/assets/animations/splashAnim.json');
+        loader.add('crossAnim', 'https://cdn.jsdelivr.net/gh/Peinguy/threegoblets/assets/animations/crossAnim.json');
         loader.load(function (loader, resources) {
           _this2.generateModifiedTextures(resources.atlas);
           _this2.generateMonsterSizes(resources.atlas);

@@ -67,7 +67,7 @@ define(['game', 'howler'], function (game, Howler) {
 
         var files = this.soundFiles();
         files.forEach(function (name) {
-          var path = 'https://cdn.jsdelivr.net/gh/Peinguy/goblets/assets/sounds/' + name + _this2.audioExtension;
+          var path = 'https://cdn.jsdelivr.net/gh/Peinguy/threegoblets/assets/sounds/' + name + _this2.audioExtension;
           var audio = new Howler.Howl({
             src: [path],
             onload: function onload() {
@@ -88,7 +88,7 @@ define(['game', 'howler'], function (game, Howler) {
 
         var files = this.soundtrackFiles();
         files.forEach(function (name) {
-          var path = 'https://cdn.jsdelivr.net/gh/Peinguy/goblets/assets/soundtracks/' + name + _this3.audioExtension;
+          var path = 'https://cdn.jsdelivr.net/gh/Peinguy/threegoblets/assets/soundtracks/' + name + _this3.audioExtension;
           var audio = new Howler.Howl({
             src: [path],
             onload: function onload() {

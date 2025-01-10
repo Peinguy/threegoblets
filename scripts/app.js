@@ -1,7 +1,7 @@
 'use strict';
 
 requirejs.config({
-  baseUrl: 'https://cdn.jsdelivr.net/gh/Peinguy/goblets/scripts',
+  baseUrl: 'https://cdn.jsdelivr.net/gh/Peinguy/threegoblets/scripts',
 
   paths: {
     'howler': 'lib/howler',
